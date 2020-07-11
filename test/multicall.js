@@ -8,7 +8,6 @@ contract("Multicall", async accounts => {
     const call = wrbtc.contract.methods.balanceOf(accounts[0]).encodeABI();
     
     let result = await multicall.contract.methods.aggregate([[wrbtc.address,call]]).call();
-
     assert.equal(parseInt(result.returnData[0]), 0);
   });
 

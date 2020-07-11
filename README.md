@@ -15,5 +15,5 @@ For use in front-end dapps, this smart contract is intended to be used with
 ### Contract Addresses
 | Chain   | Address |
 | ------- | ------- |
-| RSK Testnet   | [0x9e469e1fc7fb4c5d17897b68eaf1afc9df39f103](https://explorer.testnet.rsk.co/address/0x9e469e1fc7fb4c5d17897b68eaf1afc9df39f103) |
-| RSK Mainnet   | [0x6c62bf5440de2cb157205b15c424bceb5c3368f5](https://explorer.rsk.co/address/0x6c62bf5440de2cb157205b15c424bceb5c3368f5) |
+| RSK Testnet   | [0x4eeebb5580769ba6d26bfd07be636300076d1831](https://explorer.testnet.rsk.co/address/0x4eeebb5580769ba6d26bfd07be636300076d1831) |
+| RSK Mainnet   | [0x4eeebb5580769ba6d26bfd07be636300076d1831](https://explorer.rsk.co/address/0x4eeebb5580769ba6d26bfd07be636300076d1831) |
