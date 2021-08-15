@@ -12,7 +12,7 @@ require('dotenv').config()
 // Go to https://hardhat.org/config/ to learn more
 // 0xa975d1de6d7da3140e9e293509337373402558be
 const mnemonic = process.env.MNEMONIC || 'digital unknown jealous mother legal hedgehog save glory december universe spread figure custom found six'
-
+console.log('mnemonic', mnemonic)
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */

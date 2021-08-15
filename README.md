@@ -17,3 +17,13 @@ For use in front-end dapps, this smart contract is intended to be used with
 | ------- | ------- |
 | RSK Testnet   | [0x4eeebb5580769ba6d26bfd07be636300076d1831](https://explorer.testnet.rsk.co/address/0x4eeebb5580769ba6d26bfd07be636300076d1831) |
 | RSK Mainnet   | [0x4eeebb5580769ba6d26bfd07be636300076d1831](https://explorer.rsk.co/address/0x4eeebb5580769ba6d26bfd07be636300076d1831) |
+
+
+
+### Multicall2 Contract Addresses
+Multicall2 is the same as Multicall, but allows to send transactions not just calls and provides additional functions that allow calls within the batch to fail. Useful for situations where a call may fail depending on the state of the contract.
+
+| Chain   | Address |
+| ------- | ------- |
+| RSK Testnet   | [0xaf7be1ef9537018feda5397d9e3bb9a1e4e27ac8](https://explorer.testnet.rsk.co/address/0xaf7be1ef9537018feda5397d9e3bb9a1e4e27ac8) |
+| RSK Mainnet   | [0x8f344c3b2a02a801c24635f594c5652c8a2eb02a](https://explorer.rsk.co/address/0x8f344c3b2a02a801c24635f594c5652c8a2eb02a) |

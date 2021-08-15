@@ -10,11 +10,11 @@
     "rsk"
   ],
   "scripts": {
-    "lint": "solhint  \"contracts/**/*.sol\"",
-    "compile": "hardhat compile",
-    "test": "hardhat test",
-    "flatten": "hardhat flatten",
-    "deploy": "hardhat deploy --network"
+    "lint": "npx solhint  \"contracts/**/*.sol\"",
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "flatten": "npx hardhat flatten ./contracts/Multicall.sol > ./flatten/Multicall.sol && npx hardhat flatten ./contracts/Multicall2.sol > ./flatten/Multicall2.sol",
+    "deploy": "npx hardhat deploy --network"
   },
   "dependencies": {
     "@nomiclabs/hardhat-truffle5": "^2.0.0",

@@ -1,12 +1,10 @@
 module.exports = async function ({getNamedAccounts, deployments}) { // HardhatRuntimeEnvironment
   const {deployer} = await getNamedAccounts()
   const {deploy, log} = deployments
-  const salt = web3.utils.keccak256('multicall2')
 
   const deployResult = await deploy('Multicall2', {
     from: deployer,
     log: true,
-    deterministicDeployment: salt,
   });
 
   if (deployResult.newlyDeployed) {
