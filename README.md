@@ -15,11 +15,15 @@ For use in front-end dapps, this smart contract is intended to be used with
 ### Contract Addresses
 | Chain   | Address |
 | ------- | ------- |
-| Mainnet | [0xeefba1e63905ef1d7acba5a8513c70307c1ce441](https://etherscan.io/address/0xeefba1e63905ef1d7acba5a8513c70307c1ce441#contracts) |
-| Kovan   | [0x2cc8688c5f75e365aaeeb4ea8d6a480405a48d2a](https://kovan.etherscan.io/address/0x2cc8688c5f75e365aaeeb4ea8d6a480405a48d2a#contracts) |
-| Rinkeby | [0x42ad527de7d4e9d9d011ac45b31d8551f8fe9821](https://rinkeby.etherscan.io/address/0x42ad527de7d4e9d9d011ac45b31d8551f8fe9821#contracts) |
-| Görli   | [0x77dca2c955b15e9de4dbbcf1246b4b85b651e50e](https://goerli.etherscan.io/address/0x77dca2c955b15e9de4dbbcf1246b4b85b651e50e#contracts) |
-| Ropsten | [0x53c43764255c17bd724f74c4ef150724ac50a3ed](https://ropsten.etherscan.io/address/0x53c43764255c17bd724f74c4ef150724ac50a3ed#code) |
-| xDai    | [0xb5b692a88bdfc81ca69dcb1d924f59f0413a602a](https://blockscout.com/poa/dai/address/0xb5b692a88bdfc81ca69dcb1d924f59f0413a602a) |
-| RSK Testnet   | [0x9e469e1fc7fb4c5d17897b68eaf1afc9df39f103](https://explorer.testnet.rsk.co/address/0x9e469e1fc7fb4c5d17897b68eaf1afc9df39f103) |
-| RSK Mainnet   | [0x6c62bf5440de2cb157205b15c424bceb5c3368f5](https://explorer.rsk.co/address/0x6c62bf5440de2cb157205b15c424bceb5c3368f5) |
+| RSK Testnet   | [0x4eeebb5580769ba6d26bfd07be636300076d1831](https://explorer.testnet.rsk.co/address/0x4eeebb5580769ba6d26bfd07be636300076d1831) |
+| RSK Mainnet   | [0x4eeebb5580769ba6d26bfd07be636300076d1831](https://explorer.rsk.co/address/0x4eeebb5580769ba6d26bfd07be636300076d1831) |
+
+
+
+### Multicall2 Contract Addresses
+Multicall2 is the same as Multicall, but allows to send transactions not just calls and provides additional functions that allow calls within the batch to fail. Useful for situations where a call may fail depending on the state of the contract.
+
+| Chain   | Address |
+| ------- | ------- |
+| RSK Testnet   | [0xaf7be1ef9537018feda5397d9e3bb9a1e4e27ac8](https://explorer.testnet.rsk.co/address/0xaf7be1ef9537018feda5397d9e3bb9a1e4e27ac8) |
+| RSK Mainnet   | [0x8f344c3b2a02a801c24635f594c5652c8a2eb02a](https://explorer.rsk.co/address/0x8f344c3b2a02a801c24635f594c5652c8a2eb02a) |
