@@ -41,5 +41,6 @@ Multicall2 is the same as Multicall, but allows to send transactions not just ca
 | Arbitrum | [0x021CeAC7e681dBCE9b5039d2535ED97590eB395c](https://arbiscan.io/address/0x021CeAC7e681dBCE9b5039d2535ED97590eB395c)
 | Fantom | [0xD98e3dBE5950Ca8Ce5a4b59630a5652110403E5c](https://ftmscan.com/address/0xD98e3dBE5950Ca8Ce5a4b59630a5652110403E5c)
 | Binance | [0xed386Fe855C1EFf2f843B910923Dd8846E45C5A4](https://bscscan.com/address/0xed386Fe855C1EFf2f843B910923Dd8846E45C5A4#code)
+| Avalanche | [0xAbeC56f92a89eEe33F5194Ca4151DD59785c2C74](https://snowtrace.io/address/0xAbeC56f92a89eEe33F5194Ca4151DD59785c2C74#code)
 | RSK Testnet   | [0xaf7be1ef9537018feda5397d9e3bb9a1e4e27ac8](https://explorer.testnet.rsk.co/address/0xaf7be1ef9537018feda5397d9e3bb9a1e4e27ac8) |
 | RSK Mainnet   | [0x8f344c3b2a02a801c24635f594c5652c8a2eb02a](https://explorer.rsk.co/address/0x8f344c3b2a02a801c24635f594c5652c8a2eb02a) |
