@@ -14,7 +14,8 @@
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",
     "flatten": "npx hardhat flatten ./contracts/Multicall.sol > ./flatten/Multicall.sol && npx hardhat flatten ./contracts/Multicall2.sol > ./flatten/Multicall2.sol",
-    "deploy": "npx hardhat deploy --network"
+    "deploy": "npx hardhat deploy --network",
+    "sourcify": "npx hardhat sourcify --network"
   },
   "dependencies": {
     "@nomiclabs/hardhat-truffle5": "^2.0.0",

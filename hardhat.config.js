@@ -47,8 +47,6 @@ module.exports = {
   networks: {
     hardhat: {
       live: false,
-      blockGasLimit: 6800000,
-      gasPrice: 60000000,
       tags: ["test", "local"]
     },
     avalanche: {
