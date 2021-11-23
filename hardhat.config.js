@@ -49,28 +49,21 @@ module.exports = {
       live: false,
       blockGasLimit: 6800000,
       gasPrice: 60000000,
-      hardfork: "berlin", // London hardfork is incompatible with RSK gasPrice
       tags: ["test", "local"]
     },
-    rsktestnet: {
+    avalanche: {
       live: true,
-      url: 'https://public-node.testnet.rsk.co',
-      blockGasLimit: 6800000,
-      gasPrice: 60000000, // 0.06 gwei
-      chainId: 31,
-      hardfork: "berlin", // London hardfork is incompatible with RSK gasPrice
+      url: 'https://api.avax.network/ext/bc/C/rpc',
+      chainId: 43114,
       accounts: {
         mnemonic: mnemonic
       },
       tags: ["staging"]
     },
-    rskmainnet: {
+    optimistic: {
       live: true,
-      url: 'https://public-node.rsk.co',
-      blockGasLimit: 6800000,
-      gasPrice: 60000000, // 0.06 gwei
-      chainId: 30,
-      hardfork: "berlin", // London hardfork is incompatible with RSK gasPrice
+      url: 'https://mainnet.optimism.io',
+      chainId: 10,
       accounts: {
         mnemonic: mnemonic
       }

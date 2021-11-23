@@ -1,13 +1,13 @@
 {
-  "name": "@thinkanddev/multicall-rsk",
-  "version": "1.0.1",
-  "description": "Taringa NFT contracts",
-  "author": "Pedro Prete",
+  "name": "@gnosis.pm/multicall",
+  "version": "1.0.2",
+  "description": "MakerDAO multicall contracts",
   "license": "MIT",
   "keywords": [
     "multicall",
     "smart contracts",
-    "rsk"
+    "ethereum",
+    "gnosis"
   ],
   "scripts": {
     "lint": "npx solhint  \"contracts/**/*.sol\"",
